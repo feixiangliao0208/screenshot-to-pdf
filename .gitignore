@@ -8,3 +8,8 @@ __pycache__/
 .venv/
 venv/
 env/
+
+# PyInstaller 打包产物
+build/
+dist/
+*.spec
