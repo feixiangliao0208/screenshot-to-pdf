@@ -15,6 +15,8 @@ python screenshot_to_pdf.py       # 命令行版;会阻塞在全局热键循环�
 build.bat                         # 用 PyInstaller 打包成单文件 exe,产物在 dist\
 ```
 
+发布:exe **不进 git**(`dist/` 已 gitignore),通过 GitHub Releases 分发——打包后用 `gh release create <tag> "dist\截图拼PDF.exe"` 上传附件,用户从 Releases 页面下载。
+
 没有测试、lint;唯一的"构建"是 `build.bat`(打包 exe,额外需要 pyinstaller,仅打包时用)。
 
 ## 架构

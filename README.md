@@ -5,6 +5,12 @@
 
 提供两种用法：**图形界面版**(`app.py`，推荐)和**命令行版**(`screenshot_to_pdf.py`)。
 
+## 直接下载使用（无需安装 Python）
+
+到本仓库右侧的 [**Releases**](https://github.com/Pleasecallmealex/PythonProject5/releases/latest) 页面，下载 `截图拼PDF.exe`，双击即可运行（首次会弹出管理员授权，点「是」）。对方电脑**不需要装 Python 或任何库**。
+
+> 想自己改代码 / 自己打包，再看下面的「安装」和「打包」。
+
 ## 安装
 
 需要 Python 3.x。
