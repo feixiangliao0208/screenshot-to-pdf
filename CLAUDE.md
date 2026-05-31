@@ -15,7 +15,7 @@ python screenshot_to_pdf.py       # 命令行版;会阻塞在全局热键循环�
 build.bat                         # 用 PyInstaller 打包成单文件 exe,产物在 dist\
 ```
 
-发布:exe **不进 git**(`dist/` 已 gitignore),通过 GitHub Releases 分发——打包后用 `gh release create <tag> "dist\截图拼PDF.exe"` 上传附件,用户从 Releases 页面下载。
+发布:exe **不进 git**(`dist/` 已 gitignore),通过 GitHub Releases 分发。附件用 **ASCII 名**(`screenshot-to-pdf.exe`)上传——中文文件名经 Windows 控制台传给 `gh` 时会被编码吃掉,只剩 `PDF.exe`。流程:`Copy-Item dist\截图拼PDF.exe dist\screenshot-to-pdf.exe` 后 `gh release upload <tag> dist\screenshot-to-pdf.exe --clobber`。仓库远程是 `feixiangliao0208/screenshot-to-pdf`。
 
 没有测试、lint;唯一的"构建"是 `build.bat`(打包 exe,额外需要 pyinstaller,仅打包时用)。
 

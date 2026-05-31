@@ -7,7 +7,7 @@
 
 ## 直接下载使用（无需安装 Python）
 
-到本仓库右侧的 [**Releases**](https://github.com/feixiangliao0208/screenshot-to-pdf/releases/latest) 页面，下载 `截图拼PDF.exe`，双击即可运行（首次会弹出管理员授权，点「是」）。对方电脑**不需要装 Python 或任何库**。
+到本仓库右侧的 [**Releases**](https://github.com/feixiangliao0208/screenshot-to-pdf/releases/latest) 页面，下载 `screenshot-to-pdf.exe`，双击即可运行（首次会弹出管理员授权，点「是」）。对方电脑**不需要装 Python 或任何库**。下载后想改成中文名也可以。
 
 > 想自己改代码 / 自己打包，再看下面的「安装」和「打包」。
 
