@@ -1,0 +1,10 @@
+# 截图临时文件 & 生成的 PDF
+_shots/
+output_*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
